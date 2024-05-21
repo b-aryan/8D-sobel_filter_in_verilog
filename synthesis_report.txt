@@ -1,0 +1,1044 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon May  6 16:37:19 2024
+# Process ID: 25884
+# Current directory: D:/IITG/Sem 8/gt/test/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log img_pro_avg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source img_pro_avg.tcl
+# Log file: D:/IITG/Sem 8/gt/test/project_2/project_2.runs/synth_1/img_pro_avg.vds
+# Journal file: D:/IITG/Sem 8/gt/test/project_2/project_2.runs/synth_1\vivado.jou
+# Running On: DESKTOP-K5071EM, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 8299 MB
+#-----------------------------------------------------------
+source img_pro_avg.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:32 . Memory (MB): peak = 473.875 ; gain = 180.695
+Command: synth_design -top img_pro_avg -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23804
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:32 . Memory (MB): peak = 923.016 ; gain = 444.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'img_pro_avg' [D:/IITG/Sem 8/gt/test/img_pro_avg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'img_pro_avg' (0#1) [D:/IITG/Sem 8/gt/test/img_pro_avg.v:3]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[0] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[1] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[2] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[3] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[4] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[5] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[6] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[7] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[8] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[9] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[10] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[11] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[12] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[13] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[14] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[15] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[16] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[17] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[18] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[19] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[20] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[21] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[22] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[23] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[24] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[25] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[26] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[27] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[28] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[29] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[30] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[31] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[32] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[33] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[34] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[35] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[36] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[37] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[38] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[39] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[40] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[41] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[42] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[43] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[44] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[45] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[46] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[47] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[48] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[49] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[50] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[51] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[52] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[53] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[54] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[55] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[56] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[57] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[58] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[59] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[60] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[61] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[62] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[63] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[64] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[65] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[66] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[67] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[68] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[69] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[70] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[71] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[72] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[73] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[74] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[75] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[76] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[77] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[78] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[79] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[80] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[81] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[82] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[83] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[84] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[85] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[86] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[87] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[88] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[89] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[90] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[91] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[92] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[93] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[94] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[95] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[96] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[97] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[98] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+WARNING: [Synth 8-6014] Unused sequential element memory_out_reg[99] was removed.  [D:/IITG/Sem 8/gt/test/img_pro_avg.v:92]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:28 ; elapsed = 00:01:11 . Memory (MB): peak = 1289.316 ; gain = 810.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:01:17 . Memory (MB): peak = 1289.316 ; gain = 810.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:01:18 . Memory (MB): peak = 1289.316 ; gain = 810.523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:34 ; elapsed = 00:03:26 . Memory (MB): peak = 1514.809 ; gain = 1036.016
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   18 Bit       Adders := 8     
+	   2 Input   10 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               10 Bit    Registers := 1024  
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   18 Bit        Muxes := 7     
+	   2 Input   10 Bit        Muxes := 1034  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP max_sum6, operation Mode is: (A:0x0)*B.
+DSP Report: operator max_sum6 is absorbed into DSP max_sum6.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum29 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum8 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum7 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum10 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum16 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum18 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum17 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum19 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum22 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum23 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum26 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum3, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum3 is absorbed into DSP max_sum3.
+DSP Report: operator max_sum27 is absorbed into DSP max_sum3.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum11 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum16 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum17 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum18 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum22 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum23 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum26 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum27 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum8 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum7 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum10 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum14 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum16 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum17 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum18 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum17 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum22 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum23 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum27 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum26 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum27 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x3fffffff)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum8 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum7 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum10 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum11 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum12 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum18 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum19 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum22 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum28 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum27 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum9 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum10 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum11 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum12 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum16 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum18 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum17 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum22 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum26 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum29 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum8 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum9 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum10 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum11 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum13 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum14 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum16 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum18 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum19 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum23 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum26 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum29 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum13 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum14 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum15 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum16 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum18 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffc)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum19 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum20 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum21 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum23 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3ffffffe)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum22 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum25 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum24 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: C+(A:0x0)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum26 is absorbed into DSP max_sum5.
+DSP Report: Generating DSP max_sum5, operation Mode is: PCIN+(A:0x3fffffff)*B.
+DSP Report: operator max_sum5 is absorbed into DSP max_sum5.
+DSP Report: operator max_sum29 is absorbed into DSP max_sum5.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:37 ; elapsed = 00:09:59 . Memory (MB): peak = 1528.664 ; gain = 1049.871
+---------------------------------------------------------------------------------
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 0 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 1 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 2 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 3 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 4 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 5 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 6 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 7 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 8 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 9 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 10 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 11 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 12 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 13 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 14 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_18 : 0 15 : 53 848 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 0 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 1 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 2 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 3 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 4 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 5 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 6 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 7 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 8 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 9 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 10 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 11 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 12 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum3_5 : 0 13 : 53 742 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 0 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 1 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 2 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 3 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 4 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 5 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 6 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 7 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 8 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_1a : 0 9 : 53 530 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_10 : 0 0 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_10 : 0 1 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_10 : 0 2 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_10 : 0 3 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_10 : 0 4 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_10 : 0 5 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_10 : 0 6 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_16 : 0 0 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_16 : 0 1 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_16 : 0 2 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_16 : 0 3 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_16 : 0 4 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_16 : 0 5 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_16 : 0 6 : 53 371 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_2 : 0 0 : 53 318 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_2 : 0 1 : 53 318 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_2 : 0 2 : 53 318 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_2 : 0 3 : 53 318 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_2 : 0 4 : 53 318 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_2 : 0 5 : 53 318 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_13 : 0 0 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_13 : 0 1 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_13 : 0 2 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_13 : 0 3 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_13 : 0 4 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_6 : 0 0 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_6 : 0 1 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_6 : 0 2 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_6 : 0 3 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_6 : 0 4 : 53 265 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_11 : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_11 : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_11 : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_11 : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_15 : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_15 : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_15 : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_15 : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_19 : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_19 : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_19 : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_19 : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_7 : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_7 : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_7 : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_7 : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_8 : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_8 : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_8 : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_8 : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_9 : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_9 : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_9 : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_9 : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_b : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_b : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_b : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_b : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_c : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_c : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_c : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_c : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_d : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_d : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_d : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_d : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_e : 0 0 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_e : 0 1 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_e : 0 2 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_e : 0 3 : 53 212 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_12 : 0 0 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_12 : 0 1 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_17 : 0 0 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_17 : 0 1 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_a : 0 0 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_a : 0 1 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_f : 0 0 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_f : 0 1 : 53 106 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum5_14 : 0 0 : 53 53 : Used 1 time 0
+ Sort Area is img_pro_avg__GB8 max_sum6_0 : 0 0 : 0 0 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping           | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|img_pro_avg | (A:0x0)*B             | 10     | 18     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x3fffffff)*B    | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x3ffffffc)*B    | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x3ffffffc)*B    | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffc)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3ffffffe)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x0)*B        | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+(A:0x0)*B           | 10     | 18     | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+(A:0x3fffffff)*B | 18     | 10     | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:04:01 ; elapsed = 00:10:40 . Memory (MB): peak = 1528.664 ; gain = 1049.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:04:21 ; elapsed = 00:11:26 . Memory (MB): peak = 1534.648 ; gain = 1055.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:04:58 ; elapsed = 00:12:24 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:59 ; elapsed = 00:12:26 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:02 ; elapsed = 00:12:34 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:05:02 ; elapsed = 00:12:34 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:05:06 ; elapsed = 00:12:41 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:05:06 ; elapsed = 00:12:42 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|img_pro_avg | A*B         | 8      | 0      | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 18     | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 18     | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 18     | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 0      | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|img_pro_avg | C+A*B       | 8      | 0      | 18     | -      | 0      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|img_pro_avg | PCIN+A*B    | 30     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |   212|
+|3     |DSP48E1 |   120|
+|4     |LUT1    |   128|
+|5     |LUT2    |   306|
+|6     |LUT3    |  1569|
+|7     |LUT4    |  1356|
+|8     |LUT5    |  5212|
+|9     |LUT6    | 47398|
+|10    |MUXF7   | 22272|
+|11    |MUXF8   | 11136|
+|12    |FDRE    |  8335|
+|13    |FDSE    |     8|
+|14    |IBUF    |    11|
+|15    |OBUF    |     8|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       | 98072|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:05:06 ; elapsed = 00:12:42 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 801 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:05:06 ; elapsed = 00:12:51 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+Synthesis Optimization Complete : Time (s): cpu = 00:05:06 ; elapsed = 00:12:51 . Memory (MB): peak = 1539.012 ; gain = 1060.219
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1539.012 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 33740 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'img_pro_avg' is not ideal for floorplanning, since the cellview 'img_pro_avg' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1626.617 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 260089cd
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:06:21 ; elapsed = 00:14:58 . Memory (MB): peak = 1626.617 ; gain = 1152.742
+Write ShapeDB Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 1626.617 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/IITG/Sem 8/gt/test/project_2/project_2.runs/synth_1/img_pro_avg.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:43 . Memory (MB): peak = 1626.617 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file img_pro_avg_utilization_synth.rpt -pb img_pro_avg_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May  6 16:53:51 2024...
